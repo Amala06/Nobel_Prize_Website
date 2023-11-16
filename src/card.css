@@ -20,6 +20,18 @@
     margin-top: 6%;
     
 }
+@media (max-width: 767px) {
+    .main_content_card {
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-items: stretch; 
+    }
+  
+    .card_desc{
+        font-size: 10%;
+        font-size: 51%;
+    }
+}
 .main_image_{
  display: flex;
   /* border: 2px solid black; */
